@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"><!--css連結-->
+    <title>Echange rate calculator</title>
+</head>
+<body>
+
+    <img src="img/money.jpg" class="money-img" alt="">
+    <h1>Exchange Rate Calculator 台幣韓幣換算機</h1>
+    <p>請輸入要換算的韓幣金額：</p>
+
+    <div class="container">
+        
+        <!--顯示要進行換算的韓幣金額-->
+        <div class="currency">
+             <div id="currency-one">
+                <h2>KRW韓幣</h2>
+             </div>
+             <input type="number" id="amount-one" placeholder="0" value="1">
+        </div>
+
+        <!--按鈕後進行換算-->
+        <!--
+        <div class="swap-rate-container">
+            <button class="btn" id="swap">Swap</button>
+            
+        </div>
+        -->
+
+        <!--顯示單位匯率轉換-->
+        <div class="rate" id="rate"></div>
+
+        <!--顯示換算台幣金額-->
+        <div class="currency">
+            <div id="currency-two">
+               <h2>TWD台幣</h2>
+            </div>
+            <input type="number" id="amount-two">
+       </div>
+
+    </div>
+    <script src="script.js"></script> <!--js檔連結-->
+</body>
+</html>
